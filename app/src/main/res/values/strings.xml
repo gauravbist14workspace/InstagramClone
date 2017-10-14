@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+
+    <string name="auth_failed">Failed to authenticate.</string>
+    <string name="auth_success">Authentication Successful.</string>
+
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait....</string>
+
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Account Settings Activity -->
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sign_out_fragment">Sign Out</string>
+
+    <!-- Login Activity -->
+    <string name="fill_details">You must fill all the fields.</string>
+    <string name="login_failed">Login Failed.</string>
+    <string name="email_not_verified">Email is not verified. Check your email inbox.</string>
+    <string name="login_successful">User successfully Logged In.</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_activity">Profile Activity</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="username_updated">The username has been updated.</string>
+    <string name="password_not_match">Your password does not match!!</string>
+    <string name="email_already_taken">The email provided is already in use.</string>
+    <string name="email_updated">User email has been updated.</string>
+
+    <!-- Viewable Fragment -->
+    <string name="view_post_fragment">View Post</string>
+    <string name="view_comment_fragment">View Comments</string>
+    <string name="view_profile_fragment">View Profile</string>
+
+    <!-- Register Activity -->
+    <string name="register_failed">Registration Failed.</string>
+    <string name="register_success">User registered successfully.</string>
+    <string name="sending_verification">Sending verification email.</string>
+    <string name="verification_mail_not_sent">Could not send verification email.</string>
+    <string name="user_already_present">Username already taken.</string>
+    <string name="register">Register</string>
+    <string name="enter_email">Email Id</string>
+    <string name="username_already_exist">Current username is already taken!</string>
+    <string name="trying_username">Trying with</string>
+    <string name="new_username_alloted">Your username to login :</string>
+    <string name="registration_success">User successfully added.</string>
+    <string name="registration_failure">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+
+    <!-- Search Activity -->
+    <string name="search_activity">Search Activity</string>
+
+    <!-- Share Activity -->
+    <string name="string_next">Next</string>
+    <string name="selected_img">mSelectedImage</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+    <string name="tab_gallery">Gallery</string>
+    <string name="tab_photo">Photo</string>
+
+    <!-- Next Activity -->
+    <string name="write_description">Write a description...</string>
+    <string name="new_photo">New Photo</string>
+
+    <!-- DialogFragment -->
+    <string name="confirm_password_dialog">ConfirmPasswordDialog</string>
+    <string name="enter_password">Enter your password.</string>
+
+    <!-- Intent Extras -->
+    <string name="calling_activity">calling_activity</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="intent_user">intent_user</string>
+
+    <!-- Firebase constants: "user_private_info" -->
+    <string name="firebaseUsername">user_name</string>
+    <string name="firebaseUserId">user_id</string>
+    <string name="firebasePhoneNumber">phone_number</string>
+    <string name="firebaseEmailId">emailId</string>
+
+    <!-- Firebase constants: "user_account" node -->
+    <string name="firebaseDescription">description</string>
+    <string name="firebaseDisplayName">display_name</string>
+    <string name="firebaseFollowers">followers</string>
+    <string name="firebaseFollowing">following</string>
+    <string name="firebasePosts">posts</string>
+    <string name="firebaseProfilePhoto">profile_photo</string>
+    <string name="firebaseWebsite">website</string>
+
+    <!-- Firebase constants: "photo" node -->
+    <string name="firebaseField_likes">likes</string>
+    <string name="firebaseField_comments">comments</string>
+    <string name="firebaseField_caption">caption</string>
+    <string name="firebaseField_date_created">date_created</string>
+    <string name="firebaseField_image_path">image_path</string>
+    <string name="firebaseField_photo_id">photo_id</string>
+    <string name="firebaseField_tags">tags</string>
+
+    <string name="string_comments">Comments</string>
+    <string name="bundle_user_setting">bundle_user_settings</string>
+    <string name="home_activity">Home Activity</string>
+
+</resources>

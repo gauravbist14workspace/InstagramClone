@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.uzumaki.naruto.instagramclone"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+
+    // design library for coordinator layout and toolbars ....
+    compile 'com.android.support:design:26.+'
+
+    // bottomNavigationViewEx library ....
+    compile 'com.github.ittianyu:BottomNavigationViewEx:1.1.9'
+
+    // circular imageview ....
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    // Universal image loader ....
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+    // Firebase
+    compile 'com.google.firebase:firebase-auth:10.2.6'
+    compile 'com.google.firebase:firebase-database:10.2.6'
+    compile 'com.google.firebase:firebase-storage:10.2.6'
+}
+apply plugin: 'com.google.gms.google-services'

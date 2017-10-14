@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This relative layout will be hidden when listview item is selected -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Top section -->
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/snippet_account_settings_toolbar" />
+        </RelativeLayout>
+
+
+        <!-- Middle options section -->
+        <RelativeLayout
+            android:id="@+id/relLayout2"
+            android:layout_below="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <include layout="@layout/layout_center_account_settings" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- This occupies the whole screen, this will be used to display the fragment by hiding the below relative layout -->
+    <include layout="@layout/layout_center_viewpager" />
+
+</android.support.design.widget.CoordinatorLayout>

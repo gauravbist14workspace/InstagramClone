@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "708351237894",
+    "firebase_url": "https://instagram-clone-d3b2f.firebaseio.com",
+    "project_id": "instagram-clone-d3b2f",
+    "storage_bucket": "instagram-clone-d3b2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708351237894:android:5900a0a5573bd724",
+        "android_client_info": {
+          "package_name": "com.uzumaki.naruto.instagramclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708351237894-oheuqbpm6oaj6u7v72ct5j1r3rsgofpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrd47CcCuqUu_Oum064AhAJT5XdL0w6ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
