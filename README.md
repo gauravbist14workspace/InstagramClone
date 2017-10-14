@@ -1,0 +1,2 @@
+# InstagramClone
+This android application is a basic replica of famous social networking app called Instagram. This app does not cover all the features of original app but covers the most fundamental and basic ones, such as following users, posting images, liking someone's posts or commenting on them. For starters, after creating an account, try searching a user name "dank.naruto" and follow him so that his few test posts would show up on your Home feed.
